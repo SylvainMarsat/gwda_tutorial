@@ -1,0 +1,15 @@
+name: gwda_tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - ipython
+  - jupyterlab
+  - tqdm
+  - lalsuite
+  - gwpy
