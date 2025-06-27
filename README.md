@@ -31,7 +31,12 @@ We can also use `conda` to install all dependencies when creating the environmen
 conda env create --name gwda_tutorial --file=environment.yml
 ```
 
-Launch the jupyter notebook:
+Launch the jupyter notebook locally:
 ```
 jupyter-lab tutorial_1.ipynb
 ```
+
+You can also click on the link at the top of the notebook if you wish to run it in Goggle Colab.
+
+Alternatively, click on the badge below to run inside Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SylvainMarsat/gwda_tutorial/HEAD?urlpath=%2Fdoc%2Ftree%2Ftutorial_1.ipynb)
