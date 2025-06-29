@@ -19,7 +19,7 @@ conda activate gwda_tutorial
 
 Use `pip` to install dependencies, either by hand:
 ```
-pip install numpy scipy h5py matplotlib ipython jupyterlab tqdm lalsuite gwpy
+pip install numpy scipy h5py matplotlib ipython jupyterlab tqdm lalsuite gwpy gwosc corner eryn
 ```
 or using the `requirements.txt` file:
 ```
@@ -29,6 +29,11 @@ python -m pip install -r requirements.txt
 We can also use `conda` to install all dependencies when creating the environment (can be slow!):
 ```
 conda env create --name gwda_tutorial --file=environment.yml
+```
+
+To install the sampler `ptemcee` from a specific fork:
+```
+pip install git+https://github.com/SylvainMarsat/ptemcee
 ```
 
 Launch the jupyter notebook locally:

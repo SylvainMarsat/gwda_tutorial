@@ -13,3 +13,6 @@ dependencies:
   - tqdm
   - lalsuite
   - gwpy
+  - gwosc
+  - corner
+  - eryn
