@@ -1,18 +1,32 @@
-name: gwda_tutorial
 channels:
-  - conda-forge
-  - defaults
+- conda-forge
+- nodefaults
 dependencies:
-  - python=3.12
-  - numpy
-  - scipy
-  - h5py
-  - matplotlib
-  - ipython
-  - jupyterlab
-  - tqdm
-  - lalsuite
-  - gwpy
-  - gwosc
-  - corner
-  - eryn
+# Base
+- python=3.11.11
+- pip=25.0.1
+- numpy=1.24.4
+- scipy=1.12.0
+- pandas=2.2.3
+- matplotlib=3.10.0
+- wget=1.21.4
+# Jupyter
+- jupyter=1.1.1
+# Specifics
+- astropy=7.0.1
+- bilby=2.4.0
+- corner=2.2.3
+- dynesty=2.1.5
+- gwosc=0.7.1
+- gwpy=3.0.12
+- h5py=3.12.1
+- lalsuite=7.25
+- ligo.skymap=2.1.2
+- pycbc=2.4.1
+- pygcn=1.0.2
+- pesummary=1.3.2
+- gwpopulation=0.10.0
+- nestle=0.2.0
+# Development dependencies
+- codespell=2.3.0
+name: odw-py311

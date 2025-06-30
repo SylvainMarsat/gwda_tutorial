@@ -1,13 +1,20 @@
-python==3.12
-numpy
-scipy
-h5py
+# Base
+pip==25.0.1
+numpy==1.24.4
+scipy==1.12.0
 matplotlib
-ipython
-jupyterlab
-tqdm
+pandas==2.2.3
+# Jupyter
+jupyter==1.1.1
+# Specifics
+astropy==7.0.1
+bilby==2.4.0
+corner==2.2.3
+dynesty==2.1.5
+gwosc==0.7.1
+gwpy==3.0.12
+h5py==3.12.1
 lalsuite
-gwpy
-gwosc
-corner
 eryn
+corner
+lisabeta
