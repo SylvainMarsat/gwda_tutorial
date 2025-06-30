@@ -29,4 +29,9 @@ dependencies:
 - nestle=0.2.0
 # Development dependencies
 - codespell=2.3.0
-name: odw-py311
+# Other
+- lalsuite
+- pyseobnr
+- eryn
+- corner
+name: gwda_tutorial
