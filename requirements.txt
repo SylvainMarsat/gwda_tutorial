@@ -1,7 +1,7 @@
 pip==25.0.1
 numpy==1.24.4
 scipy==1.12.0
-matplotlib
+matplotlib==3.10.0
 pandas==2.2.3
 jupyter==1.1.1
 astropy==7.0.1
@@ -12,7 +12,5 @@ gwosc==0.7.1
 gwpy==3.0.12
 h5py==3.12.1
 lalsuite
-pyseobnr
 eryn
 corner
-lisabeta
