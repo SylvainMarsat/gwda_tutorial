@@ -14,4 +14,3 @@ h5py==3.12.1
 lalsuite
 eryn
 corner
-dill==0.3.7
