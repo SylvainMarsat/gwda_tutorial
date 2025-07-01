@@ -31,7 +31,6 @@ dependencies:
 - codespell=2.3.0
 # Other
 - lalsuite
-- pyseobnr
 - eryn
 - corner
 name: gwda_tutorial
