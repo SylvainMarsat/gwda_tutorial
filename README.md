@@ -1,6 +1,6 @@
-# lisabeta
+# Gravitational Waves Data Analysis tutorials
 
-Copyright (C) 2019 Sylvain Marsat, John G. Baker.
+Copyright (C) 2015 Sylvain Marsat.
 All rights reserved.
 
 ## Installation
@@ -40,7 +40,7 @@ Launch the jupyter notebook locally:
 jupyter-lab tutorial_1.ipynb
 ```
 
-You can also click on the link at the top of the notebook if you wish to run it in Goggle Colab.
+You can also click on the link at the top of the notebook if you wish to run it in Goggle Colab. Within Colab, you will have to uncomment and run the top cells to install the necessary packages with `pip`. The notebooks have a way to fetch data from the GWOSC; it is also possible to `!git clone ...` the present repository within the Colab workspace, and access the necessary data under the path `./gwda_tutorial/data/`.
 
 Alternatively, click on the badge below to run inside Binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SylvainMarsat/gwda_tutorial/HEAD?urlpath=%2Fdoc%2Ftree%2Ftutorial_1.ipynb)
