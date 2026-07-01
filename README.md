@@ -19,7 +19,7 @@ conda activate gwda_tutorial
 
 Use `pip` to install dependencies, either by hand:
 ```
-pip install numpy scipy h5py matplotlib ipython jupyterlab tqdm lalsuite gwpy gwosc corner eryn lisabeta
+pip install numpy==2.3.5 scipy h5py matplotlib ipython jupyterlab tqdm lalsuite gwpy gwosc corner eryn lisabeta
 ```
 or using the `requirements.txt` file:
 ```

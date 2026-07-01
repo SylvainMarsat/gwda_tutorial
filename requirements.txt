@@ -1,5 +1,5 @@
 pip==25.0.1
-numpy==1.24.4
+numpy==2.3.5
 scipy==1.12.0
 matplotlib==3.10.0
 pandas==2.2.3
